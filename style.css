@@ -1,0 +1,55 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+/* === Sidebar === */
+.sidebar {
+    width: 220px;
+    background-color: #1a2b4c;
+    min-height: 100vh;
+    padding-top: 20px;
+    color: white;
+    position: fixed;
+}
+
+.sidebar h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sidebar a {
+    display: block;
+    padding: 12px 20px;
+    color: #ccc;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #2e4170;
+    color: white;
+}
+
+.sidebar a.active {
+    background-color: #3264b3;
+    color: white;
+}
+
+/* === Konten utama === */
+.main-content {
+    margin-left: 220px;
+    padding: 40px;
+    width: 100%;
+}
+.sidebar .footer {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+}
